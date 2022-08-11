@@ -1,9 +1,9 @@
 console.log(45656+654)
 import { galleryItems } from './gallery-items';
 
-import SimpleLightbox from "simplelightbox";
+//import SimpleLightbox from "simplelightbox";
 
-import "simplelightbox/dist/simple-lightbox.min.css";
+//import "simplelightbox/dist/simple-lightbox.min.css";
 
 const gallery = document.querySelector('.gallery');
 
