@@ -1,4 +1,4 @@
-// Add imports above this line
+console.log(45656+654)
 import { galleryItems } from './gallery-items';
 
 import SimpleLightbox from "simplelightbox";
@@ -10,7 +10,7 @@ const gallery = document.querySelector('.gallery');
 const galleryMarkup = galleryItems.map(galleryItem => {
   return `
 <div class="gallery__item">
-  <a class="gallery__link" href="${galleryItem.original}" ">
+  <a class="gallery__link" href="${galleryItem.original}">
     <img
       class="gallery__image"
       src="${galleryItem.preview}"
