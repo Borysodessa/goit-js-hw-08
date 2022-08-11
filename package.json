@@ -5,8 +5,8 @@
   "homepage": "https://borysodessa.github.io/goit-js-hw-08/",
 
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --public-url /goit-js-hw-08/"
+    "start": "parcel /*.html",
+    "build": "parcel build /*.html --public-url /goit-js-hw-08/"
   },
 
   "repository": {
