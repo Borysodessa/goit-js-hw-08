@@ -4,8 +4,8 @@
   "description": "",
   "homepage": "https://Borysodessa.github.io/goit-js-hw-08",
   "scripts": {
-    "start": "parcel 01-gallery.html",
-    "build": "parcel build 01-gallery.html --public-url /goit-js-hw-08/"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
