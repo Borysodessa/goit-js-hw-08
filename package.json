@@ -3,13 +3,15 @@
   "version": "2.0.0",
   "description": "**Read in other languages: [Русский](README.md), [Polski](README.pl.md).**",
   "homepage": "https://borysodessa.github.io/goit-js-hw-08/",
+
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html "
   },
+
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/borysodessa/goit-js-hw-08.git"
+    "url": "git+https://github.com/borysodessa.github.io/goit-js-hw-08.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -28,5 +30,5 @@
     "posthtml-include": "^1.7.4"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "main ": "index.js"
+  "main ": "index.html"
 }
