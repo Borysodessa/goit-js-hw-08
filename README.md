@@ -50,7 +50,7 @@ Pages, в ветку `gh-pages`, каждый раз когда обновляе
 `package.json` отредактировать поле `homepage` и скрипт `build`, заменив
 `your_username` и `your_repo_name` на свои, и отправить изменения на GitHub.
 
-```json
+```jsonХ
 "homepage": "https://your_username.github.io/your_repo_name/",
 "scripts": {
   "build": "parcel build src/*.html --public-url /your_repo_name/"
