@@ -1,6 +1,7 @@
-console.log(45656+654)
-//import { galleryItems } from './gallery-items';
+console.log(45656+654);
+import { galleryItems } from './gallery-items';
 
+console.log(galleryItems)
 //import SimpleLightbox from "simplelightbox";
 
 //import "simplelightbox/dist/simple-lightbox.min.css";
