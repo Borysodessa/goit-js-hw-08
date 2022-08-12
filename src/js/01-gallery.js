@@ -1,11 +1,11 @@
 
 import { galleryItems } from './gallery-items.js';
 
-console.log(galleryItems)
-//import SimpleLightbox from "simplelightbox";
+import SimpleLightbox from "simplelightbox";
 
-//import "simplelightbox/dist/simple-lightbox.min.css";
-
+import "simplelightbox/dist/simple-lightbox.min.css";
+import "simplelightbox/dist/simple-lightbox.min.js";
+console.log(galleryItems);
 const gallery = document.querySelector('.gallery');
 
 const galleryMarkup = galleryItems.map(galleryItem => {
@@ -16,19 +16,13 @@ const galleryMarkup = galleryItems.map(galleryItem => {
       class="gallery__image"
       src="${galleryItem.preview}"
       alt="${galleryItem.description}"
-       //title="${galleryItem.description}"
-    />
+       />
   </a>
 </div>`
 }).join('');
 gallery.insertAdjacentHTML('beforeend', galleryMarkup);
 
-
-const handleGallery = (evt) => {
-  evt.preventDefault();
-  let lightbox = new SimpleLightbox('.gallery a', {
+let lightbox = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
     captionDelay: 250
-  });
-}
-gallery.addEventListener('click', handleGallery);
+});

@@ -4,8 +4,8 @@
   "description": "",
   "homepage": "https://Borysodessa.github.io/goit-js-hw-08",
   "scripts": {
-    "start": "parcel *.html",
-    "build": "parcel build *.html --public-url /goit-js-hw-08/"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,4 @@
     "posthtml-include": "^1.7.4"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
-
 }
-
