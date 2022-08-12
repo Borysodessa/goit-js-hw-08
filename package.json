@@ -5,7 +5,7 @@
   "homepage": "https://Borysodessa.github.io/goit-js-hw-08",
   "scripts": {
     "start": "parcel *.html",
-    "build": "parcel build *.html --public-url /goit-js-hw-08/"
+    "build": "parcel build *.html --public-url /Borysodessa/goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
