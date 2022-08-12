@@ -1,4 +1,4 @@
-console.log(45656+654);
+
 import { galleryItems } from './gallery-items.js';
 
 console.log(galleryItems)
