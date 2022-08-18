@@ -5,7 +5,6 @@ const emailEl = document.querySelector('input');
 const messageEl = document.querySelector('textarea');
 const feedbackFormState = {};
 
-
 function getItemLS() {
   if (localStorage.getItem("feedback-form-state")) {
     const feedbackFormStateParse = JSON.parse(localStorage.getItem("feedback-form-state"));
